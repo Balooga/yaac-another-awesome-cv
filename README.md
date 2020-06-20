@@ -1,37 +1,11 @@
-YAAC: Another Awesome CV [![CircleCI](https://circleci.com/gh/darwiin/yaac-another-awesome-cv.svg?style=svg)](https://circleci.com/gh/darwiin/yaac-another-awesome-cv) [![Example](https://img.shields.io/badge/Exemple-pdf-blue.svg)](https://github.com/darwiin/yaac-another-awesome-cv/releases/download/v1.8.0/cv.pdf)
-=================
+YAAC: Another Awesome CV 
+========================
 
-## Quick start
+## Build
 
-You can edit online **YAAC: Another Awesome CV** template on [Overleaf](https://www.overleaf.com/latex/templates/awesome-source-cv/wrdjtkkytqcw). Feel free to use my [referal link](https://www.overleaf.com/signup?ref=54c221604cd6) if you want to create your account.
-
-## About
-
-**YAAC: Another Awesome CV** was first based on a CV template from Alessandro Plasmati. This template used _XeLaTeX_ engine and _[Fontin Sans](http://www.exljbris.com/fontinsans.html)_ font. 
-
-**Personal data** has moved on top of the first page just before the position and _[Fontin Sans](http://www.exljbris.com/fontinsans.html)_ font has been replaced by _[Source Sans Pro Font](https://github.com/adobe-fonts/source-sans-pro)_ from Adobe. _[Font Awesome](http://fontawesome.io/)_ icons highlight important elements.
-
-Unlike _Alessandro Plasmati_ CV template, all layout stuff in **YAAC: Another Awesome CV** has moved in the Latex class file _yaac-another-awesome-cv.cls_ to improve source code readability and style reusability.
-
-More informations about the original Alessandro Plasmati template can be found here :
-
-   -  [ Scribd ](http://fr.scribd.com/doc/16335667/Writing-your-Professional-CV-with-LaTeX)
-   -  [ LaTeX Templates ](http://www.latextemplates.com/template/plasmati-graduate-cv)
-   -  [ ShareLatex ](https://www.sharelatex.com/templates/cv-or-resume/professional-cv)
-
-## Preview
-
-### Normal style
-
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| ![Résumé](example/preview/cv1.jpeg) | ![Résumé](example/preview/cv2.jpeg) |
-
-### Alternative style
-
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| ![Résumé](example/preview/cv1-alternative.jpeg) | ![Résumé](example/preview/cv2-alternative.jpeg) |
+```bash
+$ lualatex cv.tex
+```
 
 ## How to use **YAAC: Another Awesome CV** latex class
 

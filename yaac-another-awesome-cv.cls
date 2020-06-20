@@ -159,6 +159,7 @@
 {
   %\setmainfont[BoldFont = Helvetica Neue, ItalicFont=Helvetica Neue Thin Italic ,SmallCapsFont = Helvetica Neue Light]{Helvetica Neue Thin}
   \setmainfont{Source Sans Pro Light}[
+    Path = fonts/,
     BoldFont = SourceSansPro-Regular,
     ItalicFont= Source Sans Pro Light Italic]
 }
@@ -166,7 +167,7 @@
   \setmainfont{SourceSansPro-Light}[
     Path = fonts/,
     BoldFont = SourceSansPro-Regular,
-    ItalicFont = SourceSansPro-LightIt]
+    ItalicFont = SourceSansPro-Light]
 }
 
 %New length definition
@@ -196,11 +197,13 @@
 \newcommand{\viadeoSymbol}{\faViadeo}
 \newcommand{\mobileSymbol}{\faMobile*}
 \newcommand{\githubSymbol}{\faGithub}
+\newcommand{\twitterSymbol}{\faTwitter}
 \newcommand{\stackoverflowSymbol}{\faStackOverflow}
 \newcommand{\stackexchangeSymbol}{\faStackExchange}
 \newcommand{\mediumSymbol}{\faMedium}
 \newcommand{\bitbucketSymbol}{\faBitbucket}
 \newcommand{\websiteSymbol}{\faLink}
+% \newcommand{\committeeSymbol}{\faGroup}
 
 
 \newcommand\link[2]{\color{linkcolor}\href{#1}{#2}\color{Black} }
@@ -254,11 +257,11 @@
 
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
-\newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1/fr}{linkedin.com/in/#1}}
+\newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1/en}{linkedin.com/in/#1}}
 
 % Render author's viadeo(optional)
 % Usage: \viadeo{<viadeo-nick>}
-\newcommand*{\viadeo}[1]{\sociallink{\viadeoSymbol}{http://www.viadeo.com/fr/profile/#1}{viadeo.com/fr/profile/#1}}
+\newcommand*{\viadeo}[1]{\sociallink{\viadeoSymbol}{http://www.viadeo.com/en/profile/#1}{viadeo.com/en/profile/#1}}
 
 % Render author's github (optional)
 % Usage: \github{<github-nick>}
@@ -291,6 +294,11 @@
 % Render author's mobile phone (optional)
 % Usage: \smartphone{<mobile phone number>}
 \newcommand*\smartphone[1]{\socialtext{\mobileSymbol}{#1}}
+
+% Render author's Twitter (optional)
+% Usage: \twitter{<twitter-nick>}
+\newcommand*{\twitter}[1]{\sociallink{\twitterSymbol}{https://www.twitter.com/#1}{twitter.com/#1}}           % Twitter icon + URL
+
 
 % Render author's tagline
 \newcommand\resumetitle[1]{
